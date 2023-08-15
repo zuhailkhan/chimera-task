@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Custom Component should render the component 1`] = `
+<div>
+  <div
+    class="flex justify-between"
+    title="Name_container"
+  >
+    <label
+      for="Name"
+    >
+      Name
+    </label>
+    <input
+      id="textName"
+      title="Name"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
