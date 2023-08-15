@@ -23,6 +23,7 @@ const SelectInput = ({
         <select
             name={name}
             id={name}
+            title={title}
             value={value}
             onChange={handleChange}
         >

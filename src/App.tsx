@@ -59,7 +59,7 @@ function App() {
                   return <Input 
                     key={key} 
                     title={key} 
-                    type="text" 
+                    type={key === 'age' ? 'number' : 'text'} 
                     placeholder={`Enter ${key}`} 
                     name={key} 
                     handleChange={handleInput}
